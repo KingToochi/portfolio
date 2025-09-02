@@ -11,7 +11,7 @@ export default function Portfolio() {
         "A responsive login page built with React and Tailwind. Includes form validation and smooth animations.",
       tech: ["React", "TailwindCSS"],
       live: "https://amanidesign.vercel.app/",
-      github: "https://github.com/KingToochi/Amani-design",
+      github: "https://github.com/KingToochi/Amani-design.git"
     },
     {
       title: "E-commerce Frontend",
