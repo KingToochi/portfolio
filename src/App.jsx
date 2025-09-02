@@ -10,7 +10,7 @@ export default function Portfolio() {
       description:
         "A responsive login page built with React and Tailwind. Includes form validation and smooth animations.",
       tech: ["React", "TailwindCSS"],
-      live: "https://your-login-page-demo.com",
+      live: "https://amanidesign.vercel.app/",
       github: "https://github.com/KingToochi/Amani-design",
     },
     {
@@ -30,12 +30,12 @@ export default function Portfolio() {
       github: "https://github.com/your-repo/dashboard",
     },
     {
-      title: "Landing Page",
+      title: "blog page",
       description:
-        "A clean, responsive landing page with modern animations using Framer Motion.",
-      tech: ["React", "TailwindCSS", "Framer Motion"],
-      live: "https://amanidesign.vercel.app/",
-      github: "https://github.com/your-repo/landing-page",
+        "A responsive website built with React and styled using Tailwind CSS. The project showcases clean UI components, semantic content structuring, and reusable design patterns.",
+      tech: ["Html", "css"],
+      live: "https://amani-design-rho.vercel.app/",
+      github: "https://github.com/KingToochi/wdd130.git",
     },
   ];
 
