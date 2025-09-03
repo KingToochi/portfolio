@@ -17,7 +17,7 @@ export default function Portfolio() {
     {
       title: "Full-stack Hospital website",
       description:
-        "This a hospital website, that collects data from patients, doctors and nurses. It enables easy record keeping like, appointment and previous diagnosis",
+        "This a hospital website that is still on development. It collects data from patients, doctors and nurses. It enables easy record keeping like, appointment and previous diagnosis. the admin login email is prime@gmail.com, password- 1234; Incase you want to check the asdmin page",
       tech: ["React", "TailwindCSS", "Context API", "Rest API", "material ui", "FontAwesomeIcon", "react-hook-form",],
       live: "https://hospital-c4wu.vercel.app/",
       github: "https://github.com/KingToochi/Hospital.git",
