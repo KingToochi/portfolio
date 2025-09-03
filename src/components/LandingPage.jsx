@@ -127,6 +127,9 @@ export default function Portfolio() {
           <p>umoketoochukwu@gmail.com</p>
           <p>+2349031183272</p>
         </div>
+        <footer className="bg-gray-800 text-white py-8 text-center">
+        <p>&copy; 2025 AmaniSky. All rights reserved.</p>
+      </footer>
       </section>
     </div>
   );

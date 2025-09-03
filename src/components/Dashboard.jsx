@@ -141,6 +141,9 @@ function DashboardCard({ title, value, icon }) {
         <h3 className="text-gray-500 text-sm">{title}</h3>
         <p className="text-xl font-semibold">{value}</p>
       </div>
+      <footer className="bg-gray-800 text-white py-8 text-center">
+        <p>&copy; 2025 AmaniSky. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
