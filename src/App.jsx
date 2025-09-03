@@ -9,7 +9,7 @@ export default function Portfolio() {
       title: "Modern Login Page",
       description:
         "A responsive login page built with React and Tailwind. Includes form validation and smooth animations.",
-      tech: ["React", "TailwindCSS"],
+      tech: ["React", "TailwindCSS", "FontAwesomeIcon"],
       live: "https://amanidesign.vercel.app/",
       github: "https://github.com/KingToochi/Amani-design.git"
     },
@@ -18,8 +18,8 @@ export default function Portfolio() {
       description:
         "Product listing, filters, and cart system. Built with React, Tailwind, and Context API for state management.",
       tech: ["React", "TailwindCSS", "Context API"],
-      live: "https://your-ecommerce-demo.com",
-      github: "https://github.com/your-repo/ecommerce",
+      live: "https://hospital-c4wu.vercel.app/",
+      github: "https://github.com/KingToochi/Hospital.git",
     },
     {
       title: "Dashboard UI",
