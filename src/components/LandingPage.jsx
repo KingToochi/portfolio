@@ -38,6 +38,14 @@ export default function Portfolio() {
       live: "/blog", // internal route
       github: "https://github.com/KingToochi/wdd130.git",
     },
+    {
+      title: "Dashboard UI",
+      description:
+        "An interactive dashboard with charts and tables. Built with React, Recharts, and Tailwind.",
+      tech: ["React", "TailwindCSS", "Recharts"],
+      live: "/Landingpage", // internal route
+      github: "https://github.com/your-repo/dashboard",
+    },
   ];
 
   return (
