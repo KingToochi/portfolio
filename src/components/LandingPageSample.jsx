@@ -1,9 +1,9 @@
 // src/components/LandingPage.jsx
 import { ShoppingCart } from "lucide-react";
-import watch from "../assets/mouse.jpg"
-import mouse from "../assets/mouse.jpg"
-import keyboard from "../assets/mouse.jpg"
-import headset from "../assets/headset.jpg"
+import watch from "../assets/images/watch.jpg"
+import mouse from "../assets/images/mouse.jpg"
+import keyboard from "../assets/images/keyboard.wepd"
+import headset from "../assets/images/headset.jpg"
 
 export default function LandingPage() {
   const products = [
@@ -80,7 +80,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 text-center">
-        <p>&copy; 2025 AmaniSky. All rights reserved.</p>
+        <p>&copy; 2025 E-Shop. All rights reserved.</p>
       </footer>
     </div>
   );
