@@ -9,26 +9,26 @@ export default function Portfolio() {
     {
       title: "Modern Login Page",
       description:
-        "A responsive login page built with React and Tailwind. Includes form validation and smooth animations.",
-      tech: ["React", "TailwindCSS", "FontAwesomeIcon", "react-hook-form"],
+        "A responsive login page built with React and Tailwind. Includes form validation and google authetification.",
+      tech: ["React", "TailwindCSS", "FontAwesomeIcon", "react-hook-form", "Firebase", "Google authetification"],
       live: "https://amanidesign.vercel.app/",
       github: "https://github.com/KingToochi/Amani-design.git"
     },
     {
       title: "Full-stack Hospital website",
       description:
-        "Product listing, filters, and cart system. Built with React, Tailwind, and Context API for state management.",
-      tech: ["React", "TailwindCSS", "Context API"],
+        "This a hospital website, that collects data from patients, doctors and nurses. It enables easy record keeping like, appointment and previous diagnosis",
+      tech: ["React", "TailwindCSS", "Context API", "Rest API", "material ui", "FontAwesomeIcon", "react-hook-form",],
       live: "https://hospital-c4wu.vercel.app/",
       github: "https://github.com/KingToochi/Hospital.git",
     },
     {
       title: "Dashboard UI",
       description:
-        "An interactive dashboard with charts and tables. Built with React, Recharts, and Tailwind.",
-      tech: ["React", "TailwindCSS", "Recharts"],
+        "An interactive dashboard with data tables. Built with react and Tailwind.",
+      tech: ["React", "TailwindCSS", "lucide-react"],
       live: "/dashboard", // internal route
-      github: "https://github.com/your-repo/dashboard",
+      github: "https://github.com/KingToochi/portfolio.git",
     },
     {
       title: "Blog Page",
@@ -39,12 +39,12 @@ export default function Portfolio() {
       github: "https://github.com/KingToochi/wdd130.git",
     },
     {
-      title: "Dashboard UI",
+      title: "E-commerce Landing Page",
       description:
-        "An interactive dashboard with charts and tables. Built with React, Recharts, and Tailwind.",
-      tech: ["React", "TailwindCSS", "Recharts"],
+        "An interactive landing page with products displayed. Built with react and Tailwind.",
+      tech: ["React", "TailwindCSS"],
       live: "/Landingpage", // internal route
-      github: "https://github.com/your-repo/dashboard",
+      github: "https://github.com/KingToochi/portfolio.git",
     },
   ];
 
