@@ -10,7 +10,7 @@ export default function Portfolio() {
       title: "Modern Login Page",
       description:
         "A responsive login page built with React and Tailwind. Includes form validation and smooth animations.",
-      tech: ["React", "TailwindCSS", "FontAwesomeIcon"],
+      tech: ["React", "TailwindCSS", "FontAwesomeIcon", "react-hook-form"],
       live: "https://amanidesign.vercel.app/",
       github: "https://github.com/KingToochi/Amani-design.git"
     },

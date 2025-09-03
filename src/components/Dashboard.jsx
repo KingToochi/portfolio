@@ -13,14 +13,12 @@ export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="flex h-screen w-full ">
       {/* Sidebar */}
       <div
-        className={`fixed inset-y-0 left-0 transform ${
-          sidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } w-64 bg-white border-r shadow-lg transition-transform duration-200 ease-in-out lg:translate-x-0 lg:static`}
+        className={`${sidebarOpen ? "flex" : "hidden"} min-w-screen flex-col`}
       >
-        <div className="flex items-center justify-between px-4 py-4 border-b">
+        <div className="flex w-full items-center justify-center gap-10">
           <h2 className="text-xl font-bold text-blue-600">E-Shop Admin</h2>
           <button
             className="lg:hidden text-gray-600"
@@ -30,16 +28,28 @@ export default function Dashboard() {
           </button>
         </div>
         <nav className="p-4 space-y-4">
-          <a href="#" className="flex items-center gap-2 text-gray-700 hover:text-blue-600">
+          <a
+            href="#"
+            className="flex items-center gap-2 text-gray-700 hover:text-blue-600"
+          >
             <ShoppingCart size={18} /> Orders
           </a>
-          <a href="#" className="flex items-center gap-2 text-gray-700 hover:text-blue-600">
+          <a
+            href="#"
+            className="flex items-center gap-2 text-gray-700 hover:text-blue-600"
+          >
             <Package size={18} /> Products
           </a>
-          <a href="#" className="flex items-center gap-2 text-gray-700 hover:text-blue-600">
+          <a
+            href="#"
+            className="flex items-center gap-2 text-gray-700 hover:text-blue-600"
+          >
             <Users size={18} /> Customers
           </a>
-          <a href="#" className="flex items-center gap-2 text-gray-700 hover:text-blue-600">
+          <a
+            href="#"
+            className="flex items-center gap-2 text-gray-700 hover:text-blue-600"
+          >
             <LogOut size={18} /> Logout
           </a>
         </nav>
