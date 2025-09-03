@@ -1,35 +1,35 @@
 // src/components/LandingPage.jsx
 import { ShoppingCart } from "lucide-react";
-import watch from "../assets/images/watch.jpg"
-import mouse from "../assets/images/mouse.jpg"
-import keyboard from "../assets/images/keyboard.webp"
-import headset from "../assets/images/headset.jpg"
+import watch from "../assets/images/watch.jpg";
+import mouse from "../assets/images/mouse.jpg";
+import keyboard from "../assets/images/keyboard.webp";
+import headset from "../assets/images/headset.jpg";
 
 export default function LandingPage() {
   const products = [
     {
       id: 1,
-      name: headset,
+      name: "Headset",
       price: "$99",
-      image: "https://via.placeholder.com/300x200",
+      image: headset,
     },
     {
       id: 2,
-      name: watch,
+      name: "Watch",
       price: "$199",
-      image: "https://via.placeholder.com/300x200",
+      image: watch,
     },
     {
       id: 3,
-      name: mouse,
+      name: "Mouse",
       price: "$49",
-      image: "https://via.placeholder.com/300x200",
+      image: mouse,
     },
     {
       id: 4,
-      name: keyboard,
+      name: "Keyboard",
       price: "$129",
-      image: "https://via.placeholder.com/300x200",
+      image: keyboard,
     },
   ];
 
@@ -80,7 +80,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 text-center">
-        <p>&copy; 2025 E-Shop. All rights reserved.</p>
+        <p>&copy; 2025 AmaniSky. All rights reserved.</p>
       </footer>
     </div>
   );
