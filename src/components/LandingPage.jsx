@@ -44,7 +44,7 @@ export default function Portfolio() {
         "An interactive landing page with products displayed. Built with react and Tailwind.",
       tech: ["React", "TailwindCSS"],
       live: "/Landingpage", // internal route
-      github: "https://github.com/KingToochi/portfolio.git",
+      github: "https://github.com/KingToochi/portfolio.git8",
     },
   ];
 
