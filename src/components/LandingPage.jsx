@@ -35,7 +35,7 @@ export default function Portfolio() {
       description:
         "A responsive website built with React and styled using Tailwind CSS. The project showcases clean UI components, semantic content structuring, and reusable design patterns.",
       tech: ["HTML", "CSS"],
-      live: "/blog", // internal route
+      live: "https://amani-design-rho.vercel.app/", 
       github: "https://github.com/KingToochi/wdd130.git",
     },
     {
