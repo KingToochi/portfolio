@@ -1,6 +1,6 @@
 // src/components/LandingPage.jsx
 import { ShoppingCart } from "lucide-react";
-import watch from "../assets/watch.jpg"
+import watch from "../assets/mouse.jpg"
 import mouse from "../assets/mouse.jpg"
 import keyboard from "../assets/keyboard.wepd"
 import headset from "../assets/headset.jpg"
