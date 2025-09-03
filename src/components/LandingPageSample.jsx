@@ -2,7 +2,7 @@
 import { ShoppingCart } from "lucide-react";
 import watch from "../assets/images/watch.jpg"
 import mouse from "../assets/images/mouse.jpg"
-import keyboard from "../assets/images/keyboard.webd"
+import keyboard from "../assets/images/keyboard.webp"
 import headset from "../assets/images/headset.jpg"
 
 export default function LandingPage() {
