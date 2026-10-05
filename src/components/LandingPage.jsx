@@ -12,7 +12,23 @@ export default function Portfolio() {
       description:
         "A responsive login page built with React and Tailwind. Includes form validation and google authentication.",
       tech: ["React", "TailwindCSS", "FontAwesomeIcon", "react-hook-form", "Firebase", "Google Auth"],
-      live: "https://amanidesign.vercel.app/",
+      live: "fashion.amanisky.tech/login",
+      github: "https://github.com/KingToochi/Amani-design.git"
+    },
+      {
+      title: "E-commerce Landing Page",
+      description:
+        "Interactive e-commerce landing page with product showcase, shopping cart, and checkout flow. SEO optimized.",
+      tech: ["React", "TailwindCSS", "Stripe", "Redux"],
+      live: "fashion.amanisky.tech",
+      github: "https://github.com/KingToochi/Amani-design.git"
+    },
+    {
+      title: "Fashion Store",
+      description:
+        "Full-featured fashion e-commerce platform with product filtering, wishlist, reviews, and secure payment processing.",
+      tech: ["React", "Next.js", "TailwindCSS", "Stripe", "PostgreSQL"],
+      live: "fashion.amanisky.tech/products",
       github: "https://github.com/KingToochi/Amani-design.git"
     },
     {
@@ -23,48 +39,33 @@ export default function Portfolio() {
       live: "https://hospital-c4wu.vercel.app/",
       github: "https://github.com/KingToochi/Hospital.git",
     },
-    {
-      title: "Corporate Website",
-      description:
-        "Professional corporate website with service showcase, team profiles, and contact management. Fully responsive and optimized for conversions.",
-      tech: ["React", "TailwindCSS", "Framer Motion", "EmailJS"],
-      live: "/projects/corporate-website",
-      github: "#"
-    },
-    {
-      title: "SaaS Landing Page",
-      description:
-        "High-converting SaaS landing page with pricing tiers, feature comparison, and testimonials. Built for maximum engagement.",
-      tech: ["Next.js", "TailwindCSS", "React", "Vercel"],
-      live: "/projects/saas-landing",
-      github: "#"
-    },
-    {
-      title: "Restaurant Website",
-      description:
-        "Modern restaurant website with menu display, reservation system, and online ordering capabilities. Mobile-first design.",
-      tech: ["React", "TailwindCSS", "Node.js", "MongoDB"],
-      live: "/projects/restaurant-website",
-      github: "#"
-    },
+    // {
+    //   title: "Corporate Website",
+    //   description:
+    //     "Professional corporate website with service showcase, team profiles, and contact management. Fully responsive and optimized for conversions.",
+    //   tech: ["React", "TailwindCSS", "Framer Motion", "EmailJS"],
+    //   live: "/projects/corporate-website",
+    //   github: "#"
+    // },
+    // {
+    //   title: "SaaS Landing Page",
+    //   description:
+    //     "High-converting SaaS landing page with pricing tiers, feature comparison, and testimonials. Built for maximum engagement.",
+    //   tech: ["Next.js", "TailwindCSS", "React", "Vercel"],
+    //   live: "/projects/saas-landing",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Restaurant Website",
+    //   description:
+    //     "Modern restaurant website with menu display, reservation system, and online ordering capabilities. Mobile-first design.",
+    //   tech: ["React", "TailwindCSS", "Node.js", "MongoDB"],
+    //   live: "/projects/restaurant-website",
+    //   github: "#"
+    // },
 
     // E-Commerce Projects
-    {
-      title: "E-commerce Landing Page",
-      description:
-        "Interactive e-commerce landing page with product showcase, shopping cart, and checkout flow. SEO optimized.",
-      tech: ["React", "TailwindCSS", "Stripe", "Redux"],
-      live: "/Landingpage",
-      github: "https://github.com/KingToochi/portfolio.git"
-    },
-    {
-      title: "Fashion Store",
-      description:
-        "Full-featured fashion e-commerce platform with product filtering, wishlist, reviews, and secure payment processing.",
-      tech: ["React", "Next.js", "TailwindCSS", "Stripe", "PostgreSQL"],
-      live: "/projects/fashion-store",
-      github: "#"
-    },
+  
     {
       title: "Tech Products Marketplace",
       description:
@@ -83,136 +84,136 @@ export default function Portfolio() {
       live: "/projects/analytics-dashboard",
       github: "#"
     },
-    {
-      title: "Mobile App Dashboard",
-      description:
-        "Mobile-first dashboard for app management with user metrics, app performance tracking, and push notification management.",
-      tech: ["React Native", "React", "TailwindCSS", "Firebase", "Redux"],
-      live: "/projects/mobile-app-dashboard",
-      github: "#"
-    },
-    {
-      title: "Admin Dashboard UI",
-      description:
-        "Interactive admin dashboard with data tables, user management, role permissions, and system monitoring.",
-      tech: ["React", "TailwindCSS", "lucide-react"],
-      live: "/dashboard",
-      github: "https://github.com/KingToochi/portfolio.git",
-    },
-    {
-      title: "Sales Dashboard",
-      description:
-        "Sales management dashboard with revenue tracking, pipeline visualization, forecasting, and team performance metrics.",
-      tech: ["React", "ApexCharts", "TailwindCSS", "REST API"],
-      live: "/projects/sales-dashboard",
-      github: "#"
-    },
+    // {
+    //   title: "Mobile App Dashboard",
+    //   description:
+    //     "Mobile-first dashboard for app management with user metrics, app performance tracking, and push notification management.",
+    //   tech: ["React Native", "React", "TailwindCSS", "Firebase", "Redux"],
+    //   live: "/projects/mobile-app-dashboard",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Admin Dashboard UI",
+    //   description:
+    //     "Interactive admin dashboard with data tables, user management, role permissions, and system monitoring.",
+    //   tech: ["React", "TailwindCSS", "lucide-react"],
+    //   live: "/dashboard",
+    //   github: "https://github.com/KingToochi/portfolio.git",
+    // },
+    // {
+    //   title: "Sales Dashboard",
+    //   description:
+    //     "Sales management dashboard with revenue tracking, pipeline visualization, forecasting, and team performance metrics.",
+    //   tech: ["React", "ApexCharts", "TailwindCSS", "REST API"],
+    //   live: "/projects/sales-dashboard",
+    //   github: "#"
+    // },
 
     // Streaming/Entertainment
-    {
-      title: "Netflix Clone",
-      description:
-        "Feature-rich streaming platform clone with video library, personalized recommendations, watch history, and user profiles.",
-      tech: ["React", "Firebase", "TailwindCSS", "Redux", "Stripe"],
-      live: "/projects/netflix-clone",
-      github: "#"
-    },
-    {
-      title: "Video Streaming Platform",
-      description:
-        "Complete video streaming solution with HD playback, playlist creation, social sharing, and monetization features.",
-      tech: ["React", "Node.js", "HLS.js", "AWS S3", "MongoDB"],
-      live: "/projects/video-streaming",
-      github: "#"
-    },
+    // {
+    //   title: "Netflix Clone",
+    //   description:
+    //     "Feature-rich streaming platform clone with video library, personalized recommendations, watch history, and user profiles.",
+    //   tech: ["React", "Firebase", "TailwindCSS", "Redux", "Stripe"],
+    //   live: "/projects/netflix-clone",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Video Streaming Platform",
+    //   description:
+    //     "Complete video streaming solution with HD playback, playlist creation, social sharing, and monetization features.",
+    //   tech: ["React", "Node.js", "HLS.js", "AWS S3", "MongoDB"],
+    //   live: "/projects/video-streaming",
+    //   github: "#"
+    // },
 
-    // Graphic Design Projects
-    {
-      title: "Brand Identity Package",
-      description:
-        "Complete brand identity design including logo, color palette, typography guidelines, and brand asset collection.",
-      tech: ["Figma", "Adobe Creative Suite", "Branding"],
-      live: "/projects/brand-identity",
-      github: "#"
-    },
-    {
-      title: "Logo Design Collection",
-      description:
-        "Portfolio of modern, minimalist logo designs for various industries including tech, finance, healthcare, and retail.",
-      tech: ["Adobe Illustrator", "Figma", "Design"],
-      live: "/projects/logo-designs",
-      github: "#"
-    },
-    {
-      title: "Social Media Graphics",
-      description:
-        "Cohesive social media content package with Instagram posts, stories, banners, and promotional graphics.",
-      tech: ["Figma", "Canva Pro", "Adobe Photoshop"],
-      live: "/projects/social-media-graphics",
-      github: "#"
-    },
+    // // Graphic Design Projects
+    // {
+    //   title: "Brand Identity Package",
+    //   description:
+    //     "Complete brand identity design including logo, color palette, typography guidelines, and brand asset collection.",
+    //   tech: ["Figma", "Adobe Creative Suite", "Branding"],
+    //   live: "/projects/brand-identity",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Logo Design Collection",
+    //   description:
+    //     "Portfolio of modern, minimalist logo designs for various industries including tech, finance, healthcare, and retail.",
+    //   tech: ["Adobe Illustrator", "Figma", "Design"],
+    //   live: "/projects/logo-designs",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Social Media Graphics",
+    //   description:
+    //     "Cohesive social media content package with Instagram posts, stories, banners, and promotional graphics.",
+    //   tech: ["Figma", "Canva Pro", "Adobe Photoshop"],
+    //   live: "/projects/social-media-graphics",
+    //   github: "#"
+    // },
 
-    // Software/Custom Solutions
-    {
-      title: "Task Management Software",
-      description:
-        "Collaborative task management application with real-time updates, team workspaces, Gantt charts, and time tracking.",
-      tech: ["React", "Node.js", "Socket.io", "PostgreSQL", "TailwindCSS"],
-      live: "/projects/task-management",
-      github: "#"
-    },
-    {
-      title: "CRM System",
-      description:
-        "Customer relationship management platform with contact management, sales pipeline, email integration, and reporting.",
-      tech: ["React", "Express", "MongoDB", "Node.js", "TailwindCSS"],
-      live: "/projects/crm-system",
-      github: "#"
-    },
-    {
-      title: "Inventory Management System",
-      description:
-        "Smart inventory tracking system with stock alerts, automated reordering, barcode scanning, and analytics.",
-      tech: ["React", "Node.js", "MySQL", "Express", "QR Code Library"],
-      live: "/projects/inventory-management",
-      github: "#"
-    },
+    // // Software/Custom Solutions
+    // {
+    //   title: "Task Management Software",
+    //   description:
+    //     "Collaborative task management application with real-time updates, team workspaces, Gantt charts, and time tracking.",
+    //   tech: ["React", "Node.js", "Socket.io", "PostgreSQL", "TailwindCSS"],
+    //   live: "/projects/task-management",
+    //   github: "#"
+    // },
+    // {
+    //   title: "CRM System",
+    //   description:
+    //     "Customer relationship management platform with contact management, sales pipeline, email integration, and reporting.",
+    //   tech: ["React", "Express", "MongoDB", "Node.js", "TailwindCSS"],
+    //   live: "/projects/crm-system",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Inventory Management System",
+    //   description:
+    //     "Smart inventory tracking system with stock alerts, automated reordering, barcode scanning, and analytics.",
+    //   tech: ["React", "Node.js", "MySQL", "Express", "QR Code Library"],
+    //   live: "/projects/inventory-management",
+    //   github: "#"
+    // },
 
-    // Content & Blog
-    {
-      title: "Blog Platform",
-      description:
-        "Responsive blog platform with markdown support, categories, tags, search functionality, and comment system.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      live: "https://amani-design-rho.vercel.app/",
-      github: "https://github.com/KingToochi/wdd130.git",
-    },
-    {
-      title: "Documentation Website",
-      description:
-        "Technical documentation site with search, sidebar navigation, code examples, and version management.",
-      tech: ["Next.js", "MDX", "TailwindCSS", "Algolia Search"],
-      live: "/projects/documentation-website",
-      github: "#"
-    },
+    // // Content & Blog
+    // {
+    //   title: "Blog Platform",
+    //   description:
+    //     "Responsive blog platform with markdown support, categories, tags, search functionality, and comment system.",
+    //   tech: ["HTML", "CSS", "JavaScript"],
+    //   live: "https://amani-design-rho.vercel.app/",
+    //   github: "https://github.com/KingToochi/wdd130.git",
+    // },
+    // {
+    //   title: "Documentation Website",
+    //   description:
+    //     "Technical documentation site with search, sidebar navigation, code examples, and version management.",
+    //   tech: ["Next.js", "MDX", "TailwindCSS", "Algolia Search"],
+    //   live: "/projects/documentation-website",
+    //   github: "#"
+    // },
 
-    // Marketing Projects
-    {
-      title: "Product Marketing Campaign",
-      description:
-        "Integrated marketing campaign with landing page, email sequences, and social media assets for product launch.",
-      tech: ["React", "TailwindCSS", "Mailchimp", "Analytics"],
-      live: "/projects/product-marketing",
-      github: "#"
-    },
-    {
-      title: "Email Marketing Templates",
-      description:
-        "Responsive email marketing template collection optimized for all clients with drag-and-drop editor.",
-      tech: ["HTML", "CSS", "Mjml", "Email Design"],
-      live: "/projects/email-marketing",
-      github: "#"
-    },
+    // // Marketing Projects
+    // {
+    //   title: "Product Marketing Campaign",
+    //   description:
+    //     "Integrated marketing campaign with landing page, email sequences, and social media assets for product launch.",
+    //   tech: ["React", "TailwindCSS", "Mailchimp", "Analytics"],
+    //   live: "/projects/product-marketing",
+    //   github: "#"
+    // },
+    // {
+    //   title: "Email Marketing Templates",
+    //   description:
+    //     "Responsive email marketing template collection optimized for all clients with drag-and-drop editor.",
+    //   tech: ["HTML", "CSS", "Mjml", "Email Design"],
+    //   live: "/projects/email-marketing",
+    //   github: "#"
+    // },
   ];
 
   return (
