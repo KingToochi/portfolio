@@ -58,14 +58,14 @@ export default function Portfolio() {
       live: "https://hospital-c4wu.vercel.app/",
       github: "https://github.com/KingToochi/Hospital.git",
     },
-    {
-      title: "Tech Products Marketplace",
-      description:
-        "Multi-vendor tech marketplace with advanced search, product comparisons, and customer review systems.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
-      live: "/projects/tech-marketplace",
-      github: "#",
-    },
+    // {
+    //   title: "Tech Products Marketplace",
+    //   description:
+    //     "Multi-vendor tech marketplace with advanced search, product comparisons, and customer review systems.",
+    //   tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
+    //   live: "/projects/tech-marketplace",
+    //   github: "#",
+    // },
     {
       title: "Analytics Dashboard",
       description:
