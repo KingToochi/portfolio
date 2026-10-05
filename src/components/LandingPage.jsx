@@ -12,7 +12,7 @@ export default function Portfolio() {
       description:
         "A responsive login page built with React and Tailwind. Includes form validation and google authentication.",
       tech: ["React", "TailwindCSS", "FontAwesomeIcon", "react-hook-form", "Firebase", "Google Auth"],
-      live: "fashion.amanisky.tech/login",
+      live: "https://fashion.amanisky.tech/login",
       github: "https://github.com/KingToochi/Amani-design.git"
     },
       {
@@ -20,7 +20,7 @@ export default function Portfolio() {
       description:
         "Interactive e-commerce landing page with product showcase, shopping cart, and checkout flow. SEO optimized.",
       tech: ["React", "TailwindCSS", "Stripe", "Redux"],
-      live: "fashion.amanisky.tech",
+      live: "https://fashion.amanisky.tech",
       github: "https://github.com/KingToochi/Amani-design.git"
     },
     {
@@ -28,7 +28,7 @@ export default function Portfolio() {
       description:
         "Full-featured fashion e-commerce platform with product filtering, wishlist, reviews, and secure payment processing.",
       tech: ["React", "Next.js", "TailwindCSS", "Stripe", "PostgreSQL"],
-      live: "fashion.amanisky.tech/products",
+      live: "https://fashion.amanisky.tech/products",
       github: "https://github.com/KingToochi/Amani-design.git"
     },
     {
